@@ -4,7 +4,7 @@ $ma_var = "toto";
 
 function transformer_en_MAJUSCULE($une_var) : string {
     /*
-     * Ici, remplacer les o par des a
+     * Ici, remplacer les "o" par des "a"
      *
      * Lien :
      */
