@@ -26,7 +26,7 @@ function valider_mon_formulaire(array $formulaire) : bool {
     return true;
 }
 
-/* --- NE PAS TOUCHER, VOUS POUVEZ MEME IGNORER CETTE PARTIE --- */
+/* --- NE PAS TOUCHER, VOUS POUVEZ REGARDER --- */
 
 $formulaire1 = [
     "prenom" => "Julien",
@@ -45,6 +45,8 @@ $formulaire3 = [
     "nom" => " ",
     "age" => 99
 ];
+
+/* VOUS POUVEZ IGNORER CETTE PARTIE */
 
 // Valide le formulaire 1
 
