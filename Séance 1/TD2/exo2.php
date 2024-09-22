@@ -1,26 +1,27 @@
 <?php
 
+/* Quelqu'un vient de remplir le formulaire de votre site WEB */
+
 /**
- * Quelqu'un vient de remplir le formulaire de votre site WEB.
- * Vous allez rédiger le script permettant modifier les champs suivants :
+ * TODO
+ *
+ * Ici, remplir la fonction modifier_mon_formulaire pour modifier les champs suivants :
  *  - Tous les champs doivent être "trimmés"
  *  - Le nom de famille de la personne est en majuscules
  *  - Son âge devra être transformé en int
- *
- * Et vous devrez aussi valider les champs suivants (après modification)
- *
- *  - L'âge doit être de 13 ans ou plus
- *  - Le prénom et le nom ne doivent pas êtres vides
- */
-
-
-// Ici, remplir la fonction modifier_mon_formulaire
+ **/
 function modifier_mon_formulaire(array $formulaire) : array {
 
     return $formulaire;
 }
 
-// Ici, remplir la fonction valider_mon_formulaire
+/**
+ * TODO
+ *
+ * Ici, remplir la fonction valider_mon_formulaire pour valider les champs suivants (après modification)
+ *  - L'âge doit être de 13 ans ou plus
+ *  - Le prénom et le nom ne doivent pas êtres vides
+ **/
 function valider_mon_formulaire(array $formulaire) : bool {
 
     return true;
