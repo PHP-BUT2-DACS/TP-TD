@@ -5,15 +5,15 @@
 
 
 // TODO
-// Ici, récupérer la variable username
+// Ici, récupérer la variable username depuis la session courante
 $username = null;
 
 // TODO
-// Ici, récupérer la variable mail
+// Ici, récupérer la variable mail depuis la session courante
 $email = null;
 
 // TODO
-// Ici, récupérer la variable nationality
+// Ici, récupérer la variable nationality depuis la session courante
 $nationality = null;
 
 ?>
