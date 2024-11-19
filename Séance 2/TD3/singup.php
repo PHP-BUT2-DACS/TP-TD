@@ -15,7 +15,7 @@ function add_user(array $user) : void {
     // Ici, décoder le contenu JSON en variable PHP
 
 
-    // Ici, ajouter l'utilisateur au tableau
+    // Ici, ajouter l'utilisateur au tableau des utilisateurs
 
 
     // Ici, ré-encoder le tableau PHP en JSON (avec le flag JSON_PRETTY_PRINT)
@@ -33,19 +33,19 @@ if (!empty($_POST)) {
     $errors = [];
 
     // TODO
-    // Ici, récupérer la variable username
+    // Ici, récupérer la variable username depuis la variable POST
     $username = null;
 
     // TODO
-    // Ici, récupérer la variable mail
+    // Ici, récupérer la variable mail depuis la variable POST
     $email = null;
 
     // TODO
-    // Ici, récupérer la variable nationality
+    // Ici, récupérer la variable nationality depuis la variable POST
     $nationality = null;
 
     // TODO
-    // Ici, récupérer la variable password
+    // Ici, récupérer la variable password depuis la variable POST
     $password = null;
 
     /*
@@ -97,6 +97,9 @@ if (!empty($_POST)) {
 
     // S'il n'existe aucune erreur lors de la création du compte
     if (sizeof($errors) == 0) {
+        // S'assure qu'une session existe
+        session_start();
+
         // Détruit la session précédente (pour être sûr)
         session_destroy();
 
